@@ -8,12 +8,13 @@ h1{
 color: orange
 
 }
-section{
+.flexible-container{
     display: flex;
 margin-bottom: 150px;
 }
 .half-width{
     width: 50%;
+
 }
 .half-width img{
     width: 100%;
@@ -22,7 +23,7 @@ margin-bottom: 150px;
     text-decoration: none;
     background color:orange;
     padding:10px 40px;
-    border-radius: 5px;
+    border-radius:5px;
     
 }
 .top-banner{
@@ -33,4 +34,27 @@ margin-bottom: 150px;
 }
 .link-button{
     background-color: orange;
+}
+.experiance-item{
+    box-shadow: 10px 10px 40px gray;
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    border-radius: 5px;
+}
+.experiance-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#web-dev-experiance{
+     border-image: linear-gradient(blue cyan);
+ border-left: 7px solid;
+ border-image-slice: 1;
+}
+#full-stack-experiance{
+    border-image: linear-gradient(blue cyan);
+    border-left: 7px solid;
+    border-image-slice: 1;
 }
