@@ -10,6 +10,7 @@ color: orange
 }
 section{
     display: flex;
+margin-bottom: 150px;
 }
 .half-width{
     width: 50%;
@@ -26,4 +27,10 @@ section{
 }
 .top-banner{
     background-image: url(images/top-banner.png);
+}
+.Dream-BIG{
+    background-image:url(images/dream-bg.png)
+}
+.link-button{
+    background-color: orange;
 }
